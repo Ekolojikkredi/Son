@@ -1,0 +1,73 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    background: #f4f4f4;
+}
+
+/* Üst Kısım */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #00796b;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Yan Menü */
+.sidebar {
+    background: #004d40;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background: #00695c;
+}
+
+/* Ana İçerik */
+main {
+    flex-grow: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Diğer Tasarım Detayları İçin */
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
